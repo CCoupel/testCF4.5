@@ -1,6 +1,6 @@
 ---
 - hosts: all
   gather_facts: no
-  task:
+  tasks:
   - name: test acces
-    ping
+    ping:
