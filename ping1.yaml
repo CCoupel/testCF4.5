@@ -4,4 +4,4 @@
   gather_facts: no
   task:
   - name: test acces
-    ping
+    ping:
