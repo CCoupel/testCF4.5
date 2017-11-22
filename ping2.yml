@@ -1,5 +1,12 @@
 ---
-- hosts: all
+- name: TEST PLAY 1
+  hosts: all
+  gather_facts: no
+  tasks:
+  - name: test acces
+    ping:
+- name: TEST PLAY 2
+  hosts: all
   gather_facts: no
   tasks:
   - name: test acces
