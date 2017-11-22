@@ -13,4 +13,4 @@
     ping:
   - name: DEBUG
     debug:
-      msg: "test de message {{ test_var }}"
+      msg: "test de message"
